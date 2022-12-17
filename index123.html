@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/7d0cfd9894.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="background">
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+    <form>
+        <h3>Login Here</h3>
+        <label for="USERNAME">Username</label>
+        <input type="text" placeholder="Email or Phone" id="Username ">
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" id="password">
+
+        <button id="formbtn" type="submit" >Login</button>
+        <div class="social">
+        <div class="go">
+            <i class="fa fa-google"></i>
+            Google
+        </div>
+        <div class="fb">
+            <i class="fa fa-facebook"></i>
+            Facebook  
+        </div>
+        </div>
+    </div> 
+
+    </form>
+    <script>
+        document.getElementById("formbtn").addEventListener("click",function(){
+            let Username = document.getElementById("Username")
+            console.log("Username.value")
+            let Password = document.getElementById("password")
+            console.log("password.value")
+        }
+        )
+           
+        
+        
+    </script>
+      
+</body>
+</html>
